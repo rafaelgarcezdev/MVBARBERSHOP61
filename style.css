@@ -39,7 +39,7 @@ i {
 }
 .header-button {
   border: 3px solid #fff;
-  padding: 8px 24px;
+  padding: 10px 5px;
   border-radius: 4px;
   color: #fff;
   background-color: transparent;
@@ -55,11 +55,12 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 14px;
+  margin-top: 48px;
 }
 
 .header-logo img {
-  width: 25%;
+  width: 100%;
+  max-width: 200px;
 }
 
 @media screen and (max-width: 768px) {
@@ -117,6 +118,7 @@ i {
   padding: 14px;
 }
 .hero h1 {
+  display: flex;
   text-align: center;
   line-height: 150%;
   max-width: 940px;
@@ -135,10 +137,11 @@ i {
   font-size: 18px;
   font-weight: 600;
   margin: 14px 0;
+  border-radius: 4px;
 }
 
 .button-contact:hover {
-  animation: scaleButton 0.8s alternate infinite;
+  animation: scaleButton 0.6s alternate infinite;
 }
 
 @keyframes scaleButton {
@@ -239,7 +242,6 @@ i {
 
 .haircut {
   display: flex;
-  gap: 16px;
 }
 
 .image-haircut {
@@ -309,12 +311,16 @@ i {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 16px;
 }
 
 .gallery-image img {
+  display: flex;
   max-width: 350px;
   min-height: 350px;
-  padding: 5px 10px;
+  border: 1px solid #3cb371;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px 0 #06121e;
 }
 
 .footer {
